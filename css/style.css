@@ -1,0 +1,40 @@
+.homecontainer, .aboutcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-aboutcontainer{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.flex-homecontainer{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.flex-item{
+    margin-bottom: 10px;
+}
+
+.grid-aboutcontainer{
+    flex: 1 1 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-homecontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
