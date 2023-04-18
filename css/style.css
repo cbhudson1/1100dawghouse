@@ -10,12 +10,13 @@
     top: 0px;
 }
 
-/* Header and navbar */
+/* Header and navbar alignment*/
 header {
     background: #81759B;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: .5em;
 }
 
 h1 {
@@ -133,7 +134,7 @@ main p {
 
 .homeimg {
     align-self: center;
-    width: 50%;
+    width: 25%;
     border: 5px solid #EAEAEA;
 }
 
@@ -155,7 +156,7 @@ main p {
 
 
 
-/* Marketplace */
+/* About */
 
 .market h2 {
     font-family: "Bebas Neue", sans-serif;
@@ -231,7 +232,7 @@ video {
 }
 
 
-/* Players */
+/* Roster */
 h2 {
     font-family: "Bebas Neue", sans-serif;
     color: #333;
@@ -311,83 +312,6 @@ h2 {
     align-self: center;
 }
 
-/* NBA Top Shot */
-.nbacontainer {
-    display: grid;
-}
-
-.abouttopshot {
-    border-bottom: 10px solid #EAEAEA;
-    text-align: center;
-}
-
-.nbacontainer .heading {
-    font-family: "Bebas Neue", sans-serif;
-    padding: .2em .2em 0 .2em;
-    font-size: 2em;
-    grid-row: 1;
-    grid-column: 1;
-    text-align: center;
-}
-
-.nbacontainer .text {
-    font-family: "Barlow Condensed";
-    padding: 0 .4em .2em .4em;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.nbacontainer .list .text {
-    padding: 1.5em 0.5em 1.5em 0.5em;
-}
-
-.nbacontainer .list div {
-    border-top: 2px solid #333;
-    border-left: 2px solid #333;
-    border-right: 2px solid #333;
-    border-bottom: 2px solid #333;
-    margin: 2em 1em 2em 1em;
-}
-
-.nbacontainer .list .four {
-    border-bottom: 2px solid #333;
-}
-
-.nbacontainer .list {
-    border-bottom: 10px solid #EAEAEA;
-}
-
-.nbacontainer .connect {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-}
-
-.nbacontainer .connect li {
-    font-family: "Barlow Condensed";
-    padding: 0 .4em .2em .4em;
-    font-size: 1.2em;
-}
-.connect div {
-    border-right: 10px solid #EAEAEA;
-}
-
-#topshot {
-    width: 100%;
-    align-self: center;
-    grid-row: 1 / span 2;
-    grid-column: 2;
-    border-left: 10px solid #EAEAEA;
-}
-
-#links {
-    grid-row: 2;
-    grid-column: 1;
-}
-
-
-
-
 /* Footer */
 footer {
     display: flex;
@@ -405,6 +329,7 @@ footer {
 
   footer p {
       margin: auto;
+      font-family: sans-serif;
   }
 
   #pics {
