@@ -98,22 +98,26 @@ main p {
 }
 .home1 {
     display: flex;
+    align-items: center;
 }
 
 .home2 {
     border-top: 10px solid #EAEAEA;
     display: flex;
+    align-items: center;
 }
 
 .home3 {
     border-top: 10px solid #EAEAEA;
     display: flex;
+    align-items: center;
 }
 
 .home4 {
     border-top: 10px solid #EAEAEA;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #challenge {
@@ -155,8 +159,7 @@ main p {
 }
 
 
-
-/* About */
+/* About page */
 
 .market h2 {
     font-family: "Bebas Neue", sans-serif;
@@ -232,7 +235,7 @@ video {
 }
 
 
-/* Roster */
+/* Roster page */
 h2 {
     font-family: "Bebas Neue", sans-serif;
     color: #333;
@@ -443,7 +446,7 @@ footer {
         text-align: left;
     }
 
-    /* Marketplace */
+    /* About */
 
     .marketcontainer {
         grid-template-rows: repeat(5, auto);
@@ -465,7 +468,7 @@ footer {
         font-size: 1.5em;
     }
 
-    /* Players */
+    /* Roster */
     h2 {
         font-size: 2.8em;
     }
@@ -481,50 +484,7 @@ footer {
     .playerscontainer .text {
         font-size: 1.4em;
     }
-
-    /* Backyardt topshot */
-    .nbacontainer .heading {
-        font-size: 2.6em;
-    }
-
-    .nbacontainer .text {
-        font-size: 1.5em;
-        padding-bottom: 0.6em;
-    }
-
-    #links {
-        display: none
-    }
-
-    #pics {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .connect .heading {
-        text-align: center;
-    }
-
-    .nbacontainer .connect {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .linkimg {
-        width: 100%;
-        border-top: 10px solid #EAEAEA;
-        margin-bottom: -4px;
-    }
-
-    .linkimg:hover  {
-        border-top: 5px solid #81759B;
-    }
-
-    #topshot {
-        display: none;
-    }
 }
-
 @media screen and (min-width: 1000px) {
 
     h1 {
@@ -551,7 +511,7 @@ footer {
         margin-left: 0.5em;
     }
 
-    /* HOMEPAGE */
+    /* Home */
     .homecontainer .heading {
         font-size: 4em;
     }
@@ -564,7 +524,7 @@ footer {
         font-size: 1.3em;
     }
 
-    /* PLAYERS */
+    /* Roster */
 
     #main h2 {
         font-size: 4em;
@@ -582,7 +542,7 @@ footer {
         font-size: 1.8em;
     }
 
-    /* MARKETPLACE */
+    /* About */
     .marketcontainer .name {
         font-size: 3em;
     }
@@ -590,25 +550,10 @@ footer {
     .marketcontainer .play, .marketcontainer .price {
         font-size: 1.5em;
     }
-
-
-    /* TOP SHOT */
-    .nbacontainer .heading {
-        font-size: 3em;
-    }
-
-    .nbacontainer .text {
-        font-size: 1.8em;
-    }
-
-    #pics {
-        width: 100%;
-        justify-self: center;
-    }
 }
 
 @media (prefers-reduced-motion) {
     #logo {
       animation: none;
     }
-  }
+}
