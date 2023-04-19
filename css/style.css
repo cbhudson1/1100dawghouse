@@ -161,22 +161,22 @@ main p {
 
 /* About page */
 
-.market h2 {
+.about h2 {
     font-family: "Bebas Neue", sans-serif;
     padding: .5em .2em 0 .2em;
     font-size: 2em;
 }
-.market .headers > p {
+.about .headers > p {
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.2em;
     text-align: center;
     padding-bottom: .5em;
 }
 
-.market .headers {
+.about .headers {
     border-bottom: 10px solid #EAEAEA;
 }
-.marketcontainer {
+.aboutcontainer {
     display:grid;
     grid-template-rows: repeat(9, auto);
     grid-template-columns: 1fr;
@@ -189,11 +189,11 @@ video {
     margin-bottom: -3px;
 }
 
-.marketcontainer > div {
+.aboutcontainer > div {
     border-bottom: 10px solid #EAEAEA;
 }
 
-.marketcontainer .name {
+.aboutcontainer .name {
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     padding-top: 0.5em;
@@ -201,7 +201,7 @@ video {
     color: #333;
 }
 
-.marketcontainer .play {
+.aboutcontainer .scene {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.3em;
     text-align: center;
@@ -209,7 +209,7 @@ video {
     color: #333;
 }
 
-.marketcontainer .price {
+.aboutcontainer .description{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.3em;
     padding-bottom: 0.7em;
@@ -217,20 +217,20 @@ video {
     color: #333;
 }
 
-.marketcontainer .moment {
+.aboutcontainer .moment {
     border: 10px solid #81759B;
     margin-bottom: 20px;
 }
 
-.marketcontainer #m9 {
+.aboutcontainer #m9 {
     margin-bottom: 0;
 }
 
-.market {
+.about {
     background-color: #EAEAEA;
 }
 
-.market .headers, .marketcontainer .text {
+.about .headers, .aboutcontainer .text {
     background-color: #BCBEBE;
 }
 
@@ -471,7 +471,7 @@ footer {
 
     /* About */
 
-    .marketcontainer {
+    .aboutcontainer {
         grid-template-rows: repeat(5, auto);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 20px;
@@ -483,11 +483,11 @@ footer {
         justify-self: center;
     }
 
-    .market h2 {
+    .about h2 {
         font-size: 2.6em;
     }
 
-    .market .headers > p {
+    .about .headers > p {
         font-size: 1.5em;
     }
 
@@ -566,11 +566,11 @@ footer {
     }
 
     /* About */
-    .marketcontainer .name {
+    .aboutcontainer .name {
         font-size: 3em;
     }
 
-    .marketcontainer .play, .marketcontainer .price {
+    .aboutcontainer .scene, .aboutcontainer .description {
         font-size: 1.5em;
     }
 }
