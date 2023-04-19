@@ -2,7 +2,7 @@
 .skip {
     position: absolute;
     top: -50px;
-    color: #000000;
+    color: #ffd700;
 }
 
 .skip:focus {
@@ -69,13 +69,13 @@ nav ul {
 
 .nav_item a:hover {
     transition: all .4s ease-in-out;
-    color: #333;
-    border-top: 2px solid #333;
+    color: #ffd700;
+    border-top: 2px solid #ffd700;
 }
 
 #current {
-    color: #333;
-    border-top: 2px solid #333;
+    color: #ffd700;
+    border-top: 2px solid #ffd700;
 }
 
 
@@ -424,7 +424,7 @@ footer {
     }
     
     #current {
-        color: #333;
+        color: #ffd700;
         border-top: none;
         padding: 0;
     }
@@ -524,13 +524,13 @@ footer {
 
     .nav_item a:hover {
         transition: all .4s ease-in-out;
-        border-top: 2px solid #333;
+        border-top: 2px solid #ffd700;
         margin-left: 0.5em;
     }
     
     #current {
-        color: #333;
-        border-top: 2px solid #333;
+        color: #ffd700;
+        border-top: 2px solid #ffd700;
         margin-left: 0.5em;
     }
 
