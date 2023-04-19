@@ -120,7 +120,7 @@ main p {
     align-items: center;
 }
 
-#challenge {
+#special {
     text-align: right;
     padding-top: 0.2em;
 }
@@ -245,7 +245,7 @@ h2 {
 }
 .rostercontainer {
     display: grid;
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(11, auto);
     grid-template-columns: 1fr 3fr;
 }
 
@@ -256,37 +256,56 @@ h2 {
  .rostercontainer .one{
      display: grid;
      grid-column: 1 / 3;
-     align-items: center;
 }
 
 .rostercontainer .two{
     display: grid;
     grid-column: 1 / 3;
-    align-items: center;
 }
 
 .rostercontainer .three{
     display: grid;
     grid-column: 1 / 3;
-    align-items: center;
 }
 
 .rostercontainer .four{
     display: grid;
     grid-column: 1 / 3;
-    align-items: center;
 }
 
 .rostercontainer .five{
     display: grid;
     grid-column: 1 / 3;
-    align-items: center;
 }
 
 .rostercontainer .six{
     display: grid;
     grid-column: 1 / 3;
-    align-items: center;
+}
+
+.rostercontainer .seven{
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.rostercontainer .eight{
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.rostercontainer .nine{
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.rostercontainer .ten{
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.rostercontainer .eleven{
+    display: grid;
+    grid-column: 1 / 3;
 }
 
 .rostercontainer .roster {
@@ -310,8 +329,6 @@ h2 {
     font-size: 1.2em;
     padding: 0.5em 0.5em 0.5em 0em;
 }
-
-
 
 .face {
     width: 10em;
@@ -338,7 +355,7 @@ footer {
 
   footer p {
       margin: auto;
-      font-family: sans-serif;
+      font-family: "Helvetica", sans-serif;
   }
 
   #pics {
@@ -444,7 +461,7 @@ footer {
         flex-direction: row;
     }
 
-    #challenge {
+    #special {
         text-align: left;
     }
 
@@ -479,15 +496,15 @@ footer {
         font-size: 2.8em;
     }
 
-    .playerscontainer .name {
+    .rostercontainer .name {
         font-size: 1.8em;
     }
 
-    .playerscontainer .info {
+    .rostercontainer .info {
         font-size: 1.4em;
     }
 
-    .playerscontainer .text {
+    .rostercontainer .text {
         font-size: 1.4em;
     }
 }
@@ -536,15 +553,15 @@ footer {
         font-size: 4em;
     }
 
-    .playerscontainer .name {
+    .rostercontainer .name {
         font-size: 2.5em;
     }
 
-    .playerscontainer .info {
+    .rostercontainer .info {
         font-size: 2em;
     }
 
-    .playerscontainer .text {
+    .rostercontainer .text {
         font-size: 1.8em;
     }
 
